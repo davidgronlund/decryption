@@ -5,9 +5,11 @@ namespace Decryption
     class Program
     {
         static readonly string alphabet = "abcdefghijklmnopqrstuvwxyzåäö";
-        static string crypto = "Pwzqemuözrözvykvvgt".ToLower();
         static void Main(string[] args)
         {
+            var crypto = args
+                .ToString()
+                .ToLower();
             Enumerable.Range(1, alphabet.Length - 2)
                 .Select(x => x).ToList()
                 .ForEach(displaceBy =>

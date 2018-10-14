@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-namespace aggregate_practice
+namespace Decryption
 {
     class Program
     {

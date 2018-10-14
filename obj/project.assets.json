@@ -687,9 +687,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\code\\aggregate-practice\\aggregate-practice.csproj",
-      "projectName": "aggregate-practice",
-      "projectPath": "C:\\code\\aggregate-practice\\aggregate-practice.csproj",
+      "projectUniqueName": "C:\\code\\aggregate-practice\\Decryption.csproj",
+      "projectName": "Decryption",
+      "projectPath": "C:\\code\\aggregate-practice\\Decryption.csproj",
       "packagesPath": "C:\\Users\\dagr8080\\.nuget\\packages\\",
       "outputPath": "C:\\code\\aggregate-practice\\obj\\",
       "projectStyle": "PackageReference",

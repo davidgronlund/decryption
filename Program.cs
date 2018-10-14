@@ -5,24 +5,21 @@ namespace Decryption
     class Program
     {
         static readonly string alphabet = "abcdefghijklmnopqrstuvwxyzåäö";
+        static readonly int displaceBy = 2;
         static void Main(string[] args)
         {
-            var crypto = args
-                .ToString()
+            var crypto = args[0]
                 .ToLower();
-            Enumerable.Range(1, alphabet.Length - 2)
-                .Select(x => x).ToList()
-                .ForEach(displaceBy =>
-                        Console.WriteLine(crypto
-                            .ToCharArray()
-                            .Select(r =>
-                                alphabet.Substring(((alphabet.IndexOf(r) - displaceBy) < 0 && crypto.Length >= displaceBy
-                                    ? alphabet.Length + (alphabet.IndexOf(r) - displaceBy)
-                                    : alphabet.IndexOf(r) - displaceBy), 1)
-                            )
-                            .Aggregate((current, next) => current.ToString() + next.ToString())
-                            .Replace("x", " "))
-                );
+            Console.WriteLine(crypto
+                .ToCharArray()
+                .Select(r =>
+                    alphabet.Substring(((alphabet.IndexOf(r) - displaceBy) < 0 && crypto.Length >= displaceBy
+                        ? alphabet.Length + (alphabet.IndexOf(r) - displaceBy)
+                        : alphabet.IndexOf(r) - displaceBy), 1)
+                )
+                .Aggregate((current, next) => current.ToString() + next.ToString())
+                .Replace("x", " ")
+            );
         }
     }
 }

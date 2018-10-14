@@ -1,0 +1,11 @@
+C:\code\aggregate-practice\bin\Debug\netcoreapp2.1\aggregate-practice.deps.json
+C:\code\aggregate-practice\bin\Debug\netcoreapp2.1\aggregate-practice.runtimeconfig.json
+C:\code\aggregate-practice\bin\Debug\netcoreapp2.1\aggregate-practice.runtimeconfig.dev.json
+C:\code\aggregate-practice\bin\Debug\netcoreapp2.1\aggregate-practice.dll
+C:\code\aggregate-practice\bin\Debug\netcoreapp2.1\aggregate-practice.pdb
+C:\code\aggregate-practice\obj\Debug\netcoreapp2.1\aggregate-practice.csprojAssemblyReference.cache
+C:\code\aggregate-practice\obj\Debug\netcoreapp2.1\aggregate-practice.csproj.CoreCompileInputs.cache
+C:\code\aggregate-practice\obj\Debug\netcoreapp2.1\aggregate-practice.AssemblyInfoInputs.cache
+C:\code\aggregate-practice\obj\Debug\netcoreapp2.1\aggregate-practice.AssemblyInfo.cs
+C:\code\aggregate-practice\obj\Debug\netcoreapp2.1\aggregate-practice.dll
+C:\code\aggregate-practice\obj\Debug\netcoreapp2.1\aggregate-practice.pdb
